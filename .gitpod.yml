@@ -1,0 +1,32 @@
+image:
+  file: .gitpod.Dockerfile
+  
+tasks:
+  - name: Quarkus
+    init: |
+      echo '__  ____  __  _____   ___  __ ____  ______'
+      echo '--/ __ \/ / / / _ | / _ \/ //_/ / / / __/ '
+      echo '-/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   '
+      echo '--\___\_\____/_/ |_/_/|_/_/|_|\____/___/  '
+
+      echo '👋 Welcome to a workspace setup for Quarkus projects.'
+
+      echo 'This workspace allows to use Quarkus CLI. More details here https://quarkus.io/guides/cli-tooling'
+
+  - name: Quarkus command
+    command: echo 'Write here Quarkus command, like `quarkus ext list`or `quarkus ext add xxxx`'
+    openMode: split-right
+
+ports:
+  - port: 8080
+    visibility: public
+  - port: 5005
+    visibility: public
+
+vscode:
+  extensions:
+    - "redhat.java"
+    - "vscjava.vscode-java-dependency"
+    - "vscjava.vscode-java-debug"
+    - "eamodio.gitlens"
+    - "gitlab.gitlab-workflow"
