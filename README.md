@@ -1,11 +1,10 @@
-_**a Quarkus CLI Template on GitPod **_
 
 # A **Quarkus** template on Gitpod
 
 ![Quarkus logo](https://quarkus.io/assets/images/quarkus_logo_horizontal_rgb_600px_reverse.png) 
 
 
-This is a [**Quarkus**](https://https://quarkus.io/) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
+This is a [**Quarkus**](https://quarkus.io/) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
 
 ## Next Steps
 
