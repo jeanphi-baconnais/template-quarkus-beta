@@ -1,4 +1,4 @@
-FROM gitpod/workspace-java-11:2022-05-08-14-31-53
+FROM gitpod/workspace-java-11
 
 RUN bash -c ". /home/gitpod/.sdkman/bin/sdkman-init.sh && \
     sdk use java 11.0.9.j9-adpt && \
