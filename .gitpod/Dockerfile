@@ -1,12 +1,7 @@
-FROM gitpod/workspace-full
-USER gitpod
+FROM gitpod/workspace-java-11:2022-05-08-14-31-53
 
-ARG JAVA_VERSION="11.0.9.j9-adpt"
-
-# install sdkman
-RUN curl -s "https://get.sdkman.io" | bash
-
-RUN bash -c "source $HOME/.sdkman/bin/sdkman-init.sh && \
+RUN bash -c ". /home/gitpod/.sdkman/bin/sdkman-init.sh && \
+    sdk use java 11.0.9.j9-adpt && \
     yes | sdk install jbang && \
     rm -rf $HOME/.sdkman/archives/* && \
     rm -rf $HOME/.sdkman/tmp/* "
