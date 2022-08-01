@@ -10,7 +10,7 @@ This is a [**Quarkus**](https://quarkus.io/) template configured for ephemeral d
 
 Click the button below to start a new development environment:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/template-quarkus)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jeanphibaconnais/template-quarkus)
 
 ## Get Started With Your Own Project
 
